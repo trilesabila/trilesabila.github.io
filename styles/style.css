@@ -1,0 +1,261 @@
+/* Start Font */
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Cardo);
+/* End Font */
+
+/* Start Body */
+body {
+    background: url('kerajinan.jpg');
+    color: navy;
+    font-family: Comic, 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 5;
+    padding: 5;
+}
+@media only screen and (max-width: 600px){
+    body {
+        font-size: 13px;
+        color: navy;
+    }
+    .menu-primer li {
+        border-right: 1px solid #d1d5da;
+        width: 100%
+    }
+}
+@media only screen and (max-width: 1000px){
+    body {
+        font-size: 13px;
+        color: navy;
+    }
+}
+/* End Body */
+
+/* Start Heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+
+/* End Heading */
+
+/* Start Layanan */
+
+/* Start Layanan */
+
+/* Start Debug */
+.bg-lightcoral {
+    background-color: lightcoral;
+}
+.bg-skyblue {
+    background-color: skyblue;
+}
+.bg-lightblue {
+    background-color: lightblue;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10 px auto;
+    overflow: auto;
+    width:90%
+}
+
+.container-full {
+    margin: 10 px auto;
+    overflow: auto;
+    width:100%
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: indianred;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+.menu-primer li {
+    border-right: 1px solid pink;
+    display: inline-block
+}
+.menu-primer a {
+    color: black;
+    font-size: 13px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin: 0 -4px;
+}
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Anchor / Hyperlink*/
+a:link,
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink*/
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 49.5%
+}
+.main-home-two {
+    float: right;
+    width: 49.5%
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+/* End Main */
+
+/* Start Main */
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 70%;
+}
+/* End Main */
+
+/* Start Sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 30%;
+}
+/* End Sidebar */
+
+/* Start Box */
+.box-heading {
+    background-color: #f7f7f7;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-heading1 {
+    border-radius: 2px 2px 0 0;
+    margin: 0;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+/* End Box */
+
+/* Start Testimonial */
+.testimonial {
+    border-left: 2px solid #f7f7f7;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+/* End Testimonial */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: skyblue;
+    border-bottom: 1px solid #d1d5da;
+    border-top: 1px solid #d1d5da;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 14px
+}
+/* End Copyright */
+
+/* Start untuk HP */
+@media only screen and (max-width: 480px) {
+    .main-home-one {
+        /*float: left;*/
+        width: 100%
+    }
+    .main-home-two {
+        /*float: right;*/
+        width: 100%
+    }
+}
+/* End untuk HP */
